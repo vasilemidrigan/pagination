@@ -1,0 +1,41 @@
+/* globals */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5px;
+}
+
+button {
+  border: none;
+}
+
+/* pagination */
+
+.pagination-data {
+  height: 500px;
+  margin-bottom: 5px;
+}
+
+.pagination {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pagination-data,
+.pagination {
+  width: 100%;
+  border: 1px solid grey;
+}
+
+.btn {
+  width: 80px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
